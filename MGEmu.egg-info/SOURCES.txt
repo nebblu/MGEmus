@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+MGEmu/__init__.py
+MGEmu/mg_boost.py
+MGEmu.egg-info/PKG-INFO
+MGEmu.egg-info/SOURCES.txt
+MGEmu.egg-info/dependency_links.txt
+MGEmu.egg-info/requires.txt
+MGEmu.egg-info/top_level.txt

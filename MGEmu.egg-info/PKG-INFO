@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: MGEmu
+Version: 0.1
+Author: Maria Tsedrik & Ben Bose
+Author-email: mtsedrik@ed.ac.uk;bbose@ed.ac.uk
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: packaging
+Requires-Dist: cosmopower
+Requires-Dist: setuptools
+Requires-Dist: sphinx_rtd_theme
+Requires-Dist: gdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
