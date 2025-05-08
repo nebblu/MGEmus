@@ -1,4 +1,4 @@
-p# MG Emulators
+# MG Emulators
 
 Emulated nonlinear power spectrum boosts for various MG and DE theories
 for fast weak lensing analysis.
