@@ -1,7 +1,7 @@
 # MG Emulators
 
 Emulated nonlinear power spectrum boosts for various MG and DE theories
-for fast weak lensing analysis.
+for fast weak lensing analysis. All emulators are based on the [Cosmopower](https://github.com/alessiospuriomancini/cosmopower) platform. 
 
 ## Installation
 
