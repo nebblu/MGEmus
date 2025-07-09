@@ -50,7 +50,39 @@ See the [ReACTemus](https://github.com/nebblu/ReACT-emus/tree/main) for example 
 
 ## Citation
 
-If you use ``MGEmu`` at any point in your work please cite the relevant papers.
+If you use ``MGEmu`` at any point in your work please cite the relevant papers 
+
+``` 
+@article{SpurioMancini:2021ppk,
+    author = "Spurio Mancini, Alessio and Piras, Davide and Alsing, Justin and Joachimi, Benjamin and Hobson, Michael P.",
+    title = "{CosmoPower: emulating cosmological power spectra for accelerated Bayesian inference from next-generation surveys}",
+    eprint = "2106.03846",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    doi = "10.1093/mnras/stac064",
+    journal = "Mon. Not. Roy. Astron. Soc.",
+    volume = "511",
+    number = "2",
+    pages = "1771--1788",
+    year = "2022"
+}
+
+@article{Cataneo:2018cic,
+    author = "Cataneo, Matteo and Lombriser, Lucas and Heymans, Catherine and Mead, Alexander and Barreira, Alexandre and Bose, Sownak and Li, Baojiu",
+    title = "{On the road to percent accuracy: non-linear reaction of the matter power spectrum to dark energy and modified gravity}",
+    eprint = "1812.05594",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    doi = "10.1093/mnras/stz1836",
+    journal = "Mon. Not. Roy. Astron. Soc.",
+    volume = "488",
+    number = "2",
+    pages = "2121--2142",
+    year = "2019"
+}
+
+```
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
