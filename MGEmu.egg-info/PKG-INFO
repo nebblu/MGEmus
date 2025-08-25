@@ -1,6 +1,6 @@
-Metadata-Version: 2.2
+Metadata-Version: 2.4
 Name: MGEmu
-Version: 0.1
+Version: 0.2
 Author: Maria Tsedrik & Ben Bose
 Author-email: mtsedrik@ed.ac.uk;bbose@ed.ac.uk
 License-File: LICENSE
@@ -14,4 +14,5 @@ Requires-Dist: sphinx_rtd_theme
 Requires-Dist: gdown
 Dynamic: author
 Dynamic: author-email
+Dynamic: license-file
 Dynamic: requires-dist

@@ -38,7 +38,7 @@ params = {
     'z'             :  [0.]}
 
 
-emulator = mgemu.MG_boost(model='fr') #can select between fr, dgp, gamma - make sure parameters are appropriate! 
+emulator = mgemu.MG_boost(model='fr') #can select between fr, dgp, gamma, mu-sigma-de - make sure parameters are appropriate! 
 
 k_values, boost = emulator.get_boost(**params)
 ```
