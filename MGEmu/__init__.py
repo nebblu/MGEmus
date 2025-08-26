@@ -22,14 +22,15 @@ def download_data(download_dir):
     import glob
     import gdown
 
-    filenames = 'models_v1.zip'
-    version = '_v1'
+    filenames = 'models_v2.zip'
+    version = '_v2'
     out_filenames = 'models'+version
     file_path = os.path.join(download_dir, filenames)
     final_path = os.path.join(download_dir, out_filenames)
 
    # url = 'https://drive.google.com/uc?id=1Bmr4UpA69RTt15Vbu69I7D7ghUUEVSMP' 
-    url = 'https://drive.google.com/uc?id=1NS4-T6sGcYCTm-zGvvCOCEzILj07uzTl'
+   # url = 'https://drive.google.com/uc?id=1NS4-T6sGcYCTm-zGvvCOCEzILj07uzTl'
+    url = 'https://drive.google.com/uc?id=1V2kiPa9pUAZv_SEB0lWBajIkVfgzvide'
 
     # do not re-download
     if not os.path.exists(final_path):
