@@ -31,7 +31,7 @@ def download_data(download_dir):
    # url = 'https://drive.google.com/uc?id=1Bmr4UpA69RTt15Vbu69I7D7ghUUEVSMP' 
    # url = 'https://drive.google.com/uc?id=1NS4-T6sGcYCTm-zGvvCOCEzILj07uzTl' #v1
    # url = 'https://drive.google.com/uc?id=1UVT0GY8I2Y22I_o1EhYXzmUjc35sQOGx' #v2
-    url = 'https://drive.google.com/uc?id=1UlOS8JK9TissS_clWWcl26AM0bkuvgK9'  #v3
+    url = 'https://drive.google.com/uc?id=1UELakAbWr95bFdAHFobm2ZNjM4G5iCVf'  #v3
 
     # do not re-download
     if not os.path.exists(final_path):

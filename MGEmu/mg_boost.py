@@ -120,7 +120,7 @@ class MG_boost(object):
                          Omega_b=None,
                          H0=None, ns=None, Omega_nu=None, As=None,
                          fR0=None, omegarc=None, gamma=None,
-                         mu0=None, lam=None, c2=None, 
+                         mu0=None, lam=None, c1=None, 
                          q1=None, q2=None, q3=None,
                          w0=None, wa=None, xi=None,
                          z=None, k=None, 
