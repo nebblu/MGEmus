@@ -6,7 +6,7 @@ import cosmopower as cp
 from cosmopower import cosmopower_NN
 __all__ = ["MG_boost"]
 
-version = "_v2"
+version = "_v3"
 class MG_boost(object):
     """
     A class to load and call the MG emulator for the nonlinear power spectrum boost.
@@ -119,7 +119,9 @@ class MG_boost(object):
     def get_nonlinear_boost(self, Omega_m=None, 
                          Omega_b=None,
                          H0=None, ns=None, Omega_nu=None, As=None,
-                         fR0=None, omegarc = None, gamma = None, q1 = None,
+                         fR0=None, omegarc=None, gamma=None,
+                         mu0=None, lam=None, c2=None, 
+                         q1=None, q2=None, q3=None,
                          w0=None, wa=None, xi=None,
                          z=None, k=None, 
                          **kwargs):

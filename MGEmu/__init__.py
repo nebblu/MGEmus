@@ -22,16 +22,16 @@ def download_data(download_dir):
     import glob
     import gdown
 
-    filenames = 'models_v2.zip'
-    version = '_v2'
+    filenames = 'models_v3.zip'
+    version = '_v3'
     out_filenames = 'models'+version
     file_path = os.path.join(download_dir, filenames)
     final_path = os.path.join(download_dir, out_filenames)
 
    # url = 'https://drive.google.com/uc?id=1Bmr4UpA69RTt15Vbu69I7D7ghUUEVSMP' 
-   # url = 'https://drive.google.com/uc?id=1NS4-T6sGcYCTm-zGvvCOCEzILj07uzTl'
-    url = 'https://drive.google.com/uc?id=1UVT0GY8I2Y22I_o1EhYXzmUjc35sQOGx'
-
+   # url = 'https://drive.google.com/uc?id=1NS4-T6sGcYCTm-zGvvCOCEzILj07uzTl' #v1
+   # url = 'https://drive.google.com/uc?id=1UVT0GY8I2Y22I_o1EhYXzmUjc35sQOGx' #v2
+    url = 'https://drive.google.com/uc?id=1UlOS8JK9TissS_clWWcl26AM0bkuvgK9'  #v3
 
     # do not re-download
     if not os.path.exists(final_path):
