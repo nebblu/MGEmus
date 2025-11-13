@@ -30,8 +30,9 @@ def download_data(download_dir):
 
    # url = 'https://drive.google.com/uc?id=1Bmr4UpA69RTt15Vbu69I7D7ghUUEVSMP' 
    # url = 'https://drive.google.com/uc?id=1NS4-T6sGcYCTm-zGvvCOCEzILj07uzTl' #v1
-   # url = 'https://drive.google.com/uc?id=1UVT0GY8I2Y22I_o1EhYXzmUjc35sQOGx' #v2
-    url = 'https://drive.google.com/uc?id=1UELakAbWr95bFdAHFobm2ZNjM4G5iCVf'  #v3
+   # url = 'https://drive.google.com/uc?id=1UVT0GY8I2Y22I_o1EhYXzmUjc35sQOGx' #v2 (added in ds emulator)
+   # url = 'https://drive.google.com/uc?id=1UELakAbWr95bFdAHFobm2ZNjM4G5iCVf'  #v3 (added mu(k;z) + q1,q2,q3 emulator)
+    url = 'https://drive.google.com/uc?id=1LlGOP65E-7AND8SMAB3MUooxvvT9lHG8'  #v4 (extends ds emulator to DESI regime of w0,wa)
 
     # do not re-download
     if not os.path.exists(final_path):
