@@ -22,8 +22,8 @@ def download_data(download_dir):
     import glob
     import gdown
 
-    filenames = 'models_v3.zip'
-    version = '_v3'
+    filenames = 'models_v4.zip'
+    version = '_v4'
     out_filenames = 'models'+version
     file_path = os.path.join(download_dir, filenames)
     final_path = os.path.join(download_dir, out_filenames)
